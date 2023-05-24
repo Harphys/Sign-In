@@ -10,7 +10,7 @@ function validate() {
     } else {
         attempt--;
         alert("You have " + attempt  +" attempt left ;")
-        window.location = "Login.html";
+        window.location = "index.html";
         if (attempt== 0) {
             document.getElementById("username").disabled = true;
             document.getElementById("password").disabled = true;
